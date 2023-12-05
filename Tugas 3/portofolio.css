@@ -1,0 +1,40 @@
+body {
+    background:linear-gradient(rgb(178, 214, 247) 0%, rgb(120, 175, 251)40%, rgb(57, 129, 245)100%);
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.rain{
+    width: 200px;
+}
+
+.profile h3{
+    color: white;
+}
+
+.profile h4{
+    color: white;
+    transform: translateY(-5px);
+    font-size: 20px;
+}
+
+#about{
+    background:linear-gradient(rgb(255, 255, 255) 0%, rgba(255, 255, 255, 0.668)40%, rgba(255, 255, 255, 0)100%);
+    padding-bottom: 40%;
+    padding-top: 50px;
+}
+#blog{
+    padding-bottom: 12%;
+}
+#footer{
+    color: black;
+    padding-bottom: 16%;
+    background-color: white;
+}
+section{
+    padding-top: 5rem;
+}
