@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NavbarTugas</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <header> 
+  <a href="#" class="hi"> HILLO </a>
+  <div class="menuToggle"></div>
+  <nav>
+   <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Article<b>▼</b></a>
+        <ul>
+            <li><a href="#">Article 1</a></li>
+            <li><a href="#">Article 2</a></li>
+            <li><a href="#">Article 3</a></li>
+        </ul>
+    </li>
+    <li><a href="#">contact</a></li>
+   </ul>
+  </nav>
+  </header>
+  <script>
+   let menuToggle = document.querySelector('.menuToggle');
+   let header = document.querySelector('header');
+   menuToggle.onclick = function() {
+    header.classList.toggle('active');
+   }
+  </script>
+</body>
+</html>
